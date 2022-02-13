@@ -19,7 +19,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](profile-card-challenge-screenshot.jpg)
+![](/profile-card-challenge-screenshot.jpg)
 
 
 ## My process
