@@ -1,0 +1,115 @@
+/* import fonts from google */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* set up colors and fonts variables */
+:root {
+    --cls-dark-cyan: hsl(185, 75%, 39%);
+    --cls-dark-desat-blue: hsl(229, 23%, 23%);
+    --cls-dark-grayish-blue: hsl(227, 10%, 46%);
+    --cls-dark-gray: hsl(0,0%,59%);
+    --ff-kumbh-sans: 'Kumbh Sans', sans-serif;
+}
+
+/* reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ff-kumbh-sans);
+}
+/* 
+html {
+    font-size: 18px;
+} */
+
+body {
+    background: var(--cls-dark-cyan);
+    min-height: 100vh;
+    height: 100vh;
+}
+
+main {
+    height: 100%;
+}
+
+/* base styles */
+
+p {
+    color: var(--cls-dark-gray);
+}
+
+h1,
+h2,
+.user-age {
+    font-size: 1.2rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* styling main card component */
+.card {
+    width: 335px;
+    height: 375px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+/* styling top of card and profile image */
+header {
+    background: url('assets/bg-pattern-card.svg');
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    height: 33%;
+}
+
+.user-image img {
+    border-radius: 100%;
+    border: 5px solid #fff;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%); /* center image */
+}
+
+/* styling where user info is displayed */
+.user-info {
+    padding: 25px;
+    margin: 35px auto 0; /* top, right/left, bottom */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-and-age {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    color: var(--cls-dark-gray);
+    height: 1px;
+    background: var(--cls-dark-gray);
+}
+
+/* styling user stats */
+.user-stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 25%;
+}
+
+.stat p {
+    font-size: .8rem;
+}
