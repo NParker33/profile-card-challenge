@@ -17,11 +17,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Build out the project to the designs provided
 
-### Screenshot
-
-![](./profile-card-challenge-screenshot.jpg)
-
-
 ## My process
 
 ### Built with
